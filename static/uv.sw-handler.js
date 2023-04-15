@@ -1,0 +1,1 @@
+importScripts("/uv/uv.bundle.js"),importScripts("/uv/uv.config.js"),importScripts(__uv$config.sw||"/uv/uv.sw.js");const e=new UVServiceWorker;self.addEventListener("fetch",(s=>{s.respondWith(e.fetch(s))}));
